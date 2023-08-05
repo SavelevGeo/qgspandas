@@ -1,0 +1,1573 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" saveUser="savevelgeo" version="3.32.1-Lima" saveDateTime="2023-08-06T00:39:48" saveUserFull="SavevelGeo">
+  <homePath path=""/>
+  <title></title>
+  <transaction mode="Disabled"/>
+  <projectFlags set=""/>
+  <projectCrs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <elevation-shading-renderer edl-distance-unit="0" light-altitude="45" light-azimuth="315" edl-strength="1000" combined-method="0" hillshading-z-factor="1" edl-is-active="1" hillshading-is-active="0" hillshading-is-multidirectional="0" is-active="0" edl-distance="0.5"/>
+  <layer-tree-group>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layer-tree-layer source="/vsizip//vsicurl/https://geodacenter.github.io/data-and-lab//data/malariacolomb.zip/malariacolomb/colmunic.gpkg|layername=colmunic|geometrytype=Polygon|uniqueGeometryType=yes" legend_exp="" legend_split_behavior="0" name="malariacolomb/colmunic.gpkg" providerKey="ogr" id="malariacolomb_colmunic_gpkg_03cd58a0_7908_47ba_b82e_456bd1bbfbbd" patch_size="-1,-1" expanded="1" checked="Qt::Checked">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <layer-tree-layer source="type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0" legend_exp="" legend_split_behavior="0" name="OpenStreetMap" providerKey="wms" id="_6722e8eb_e78a_4e5c_9358_eff9b175c4b0" patch_size="-1,-1" expanded="1" checked="Qt::Checked">
+      <customproperties>
+        <Option/>
+      </customproperties>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>malariacolomb_colmunic_gpkg_03cd58a0_7908_47ba_b82e_456bd1bbfbbd</item>
+      <item>_6722e8eb_e78a_4e5c_9358_eff9b175c4b0</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings minScale="0" mode="2" enabled="0" scaleDependencyMode="0" intersection-snapping="0" type="1" maxScale="0" self-snapping="0" tolerance="12" unit="1">
+    <individual-layer-settings>
+      <layer-setting minScale="0" enabled="0" units="1" id="malariacolomb_colmunic_gpkg_03cd58a0_7908_47ba_b82e_456bd1bbfbbd" type="1" maxScale="0" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <polymorphicRelations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>-9184596.87950031831860542</xmin>
+      <ymin>-512758.44962872331961989</ymin>
+      <xmax>-7010418.18092058971524239</xmax>
+      <ymax>1448451.96896222094073892</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer name="malariacolomb/colmunic.gpkg" drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="malariacolomb_colmunic_gpkg_03cd58a0_7908_47ba_b82e_456bd1bbfbbd" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer name="OpenStreetMap" drawingOrder="-1" open="true" checked="Qt::Checked" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="_6722e8eb_e78a_4e5c_9358_eff9b175c4b0" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <expressionContextScope/>
+  </mapcanvas>
+  <main-annotation-layer autoRefreshTime="0" refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" type="annotation" maxScale="0" legendPlaceholderImage="" styleCategories="AllStyleCategories">
+    <id>Annotations_f180a04f_65fc_4712_a76e_5294281d3d22</id>
+    <datasource></datasource>
+    <keywordList>
+      <value></value>
+    </keywordList>
+    <layername>Annotations</layername>
+    <srs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </srs>
+    <resourceMetadata>
+      <identifier></identifier>
+      <parentidentifier></parentidentifier>
+      <language></language>
+      <type></type>
+      <title></title>
+      <abstract></abstract>
+      <links/>
+      <dates/>
+      <fees></fees>
+      <encoding></encoding>
+      <crs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt></wkt>
+          <proj4></proj4>
+          <srsid>0</srsid>
+          <srid>0</srid>
+          <authid></authid>
+          <description></description>
+          <projectionacronym></projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </crs>
+      <extent/>
+    </resourceMetadata>
+    <items/>
+    <flags>
+      <Identifiable>1</Identifiable>
+      <Removable>1</Removable>
+      <Searchable>1</Searchable>
+      <Private>0</Private>
+    </flags>
+    <customproperties>
+      <Option/>
+    </customproperties>
+    <layerOpacity>1</layerOpacity>
+    <blendMode>0</blendMode>
+    <paintEffect/>
+  </main-annotation-layer>
+  <projectlayers>
+    <maplayer autoRefreshTime="0" refreshOnNotifyEnabled="0" minScale="1e+08" refreshOnNotifyMessage="" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" type="raster" maxScale="0" legendPlaceholderImage="" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278924763202667</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924763202667</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-180</xmin>
+        <ymin>-85.05112877980660357</ymin>
+        <xmax>179.99999999999997158</xmax>
+        <ymax>85.05112877980660357</ymax>
+      </wgs84extent>
+      <id>_6722e8eb_e78a_4e5c_9358_eff9b175c4b0</id>
+      <datasource>type=xyz&amp;url=https://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png&amp;zmax=19&amp;zmin=0</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OpenStreetMap</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier>OpenStreetMap tiles</identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title>OpenStreetMap tiles</title>
+        <abstract>OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world.</abstract>
+        <links>
+          <link name="Source" url="https://www.openstreetmap.org/" mimeType="" size="" type="WWW:LINK" format="" description=""/>
+        </links>
+        <dates/>
+        <fees></fees>
+        <rights>Base map and data from OpenStreetMap and OpenStreetMap Foundation (CC-BY-SA). © https://www.openstreetmap.org and contributors.</rights>
+        <license>Open Data Commons Open Database License (ODbL)</license>
+        <license>Creative Commons Attribution-ShareAlike (CC-BY-SA)</license>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+            <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+            <srsid>3857</srsid>
+            <srid>3857</srid>
+            <authid>EPSG:3857</authid>
+            <description>WGS 84 / Pseudo-Mercator</description>
+            <projectionacronym>merc</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="-180" miny="-85.05112877980660357" maxx="180" dimensions="2" maxz="0" crs="EPSG:4326" minz="0" maxy="85.05112877980660357"/>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal fetchMode="0" mode="0" enabled="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation symbology="Line" band="1" enabled="0" zoffset="0" zscale="1">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol clip_to_extent="1" name="" alpha="1" is_animated="0" force_rhr="0" type="line" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleLine" locked="0" id="{eccd3885-65df-4c32-80b8-f8f16d2c9629}" pass="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" value="0" type="QString"/>
+                <Option name="capstyle" value="square" type="QString"/>
+                <Option name="customdash" value="5;2" type="QString"/>
+                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="customdash_unit" value="MM" type="QString"/>
+                <Option name="dash_pattern_offset" value="0" type="QString"/>
+                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                <Option name="draw_inside_polygon" value="0" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="line_color" value="183,72,75,255" type="QString"/>
+                <Option name="line_style" value="solid" type="QString"/>
+                <Option name="line_width" value="0.6" type="QString"/>
+                <Option name="line_width_unit" value="MM" type="QString"/>
+                <Option name="offset" value="0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="ring_filter" value="0" type="QString"/>
+                <Option name="trim_distance_end" value="0" type="QString"/>
+                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                <Option name="trim_distance_start" value="0" type="QString"/>
+                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                <Option name="use_custom_dash" value="0" type="QString"/>
+                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol clip_to_extent="1" name="" alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" locked="0" id="{7d605bcd-8c37-4817-93e1-9c2678a9706c}" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="183,72,75,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="no" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+      </elevation>
+      <customproperties>
+        <Option type="Map">
+          <Option name="identify/format" value="Value" type="QString"/>
+        </Option>
+      </customproperties>
+      <mapTip enabled="1"></mapTip>
+      <pipe-data-defined-properties>
+        <Option type="Map">
+          <Option name="name" value="" type="QString"/>
+          <Option name="properties"/>
+          <Option name="type" value="collection" type="QString"/>
+        </Option>
+      </pipe-data-defined-properties>
+      <pipe>
+        <provider>
+          <resampling zoomedInResamplingMethod="nearestNeighbour" zoomedOutResamplingMethod="nearestNeighbour" enabled="false" maxOversampling="2"/>
+        </provider>
+        <rasterrenderer band="1" opacity="1" alphaBand="-1" nodataColor="" type="singlebandcolordata">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0" gamma="1"/>
+        <huesaturation saturation="0" invertColors="0" colorizeGreen="128" colorizeBlue="128" colorizeStrength="100" colorizeRed="255" colorizeOn="0" grayscaleMode="0"/>
+        <rasterresampler maxOversampling="2"/>
+        <resamplingStage>resamplingFilter</resamplingStage>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minScale="100000000" simplifyDrawingTol="1" autoRefreshTime="0" labelsEnabled="0" simplifyDrawingHints="1" simplifyAlgorithm="0" geometry="Polygon" type="vector" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" legendPlaceholderImage="" simplifyMaxScale="1" maxScale="0" simplifyLocal="1" symbologyReferenceScale="-1" refreshOnNotifyMessage="" readOnly="0" wkbType="Polygon">
+      <extent>
+        <xmin>-79.04720000000000368</xmin>
+        <ymin>-4.23048000000000002</ymin>
+        <xmax>-66.86979999999999791</xmax>
+        <ymax>12.46330000000000027</ymax>
+      </extent>
+      <wgs84extent>
+        <xmin>-79.04720000000000368</xmin>
+        <ymin>-4.23048000000000002</ymin>
+        <xmax>-66.86979999999999791</xmax>
+        <ymax>12.46330000000000027</ymax>
+      </wgs84extent>
+      <id>malariacolomb_colmunic_gpkg_03cd58a0_7908_47ba_b82e_456bd1bbfbbd</id>
+      <datasource>/vsizip//vsicurl/https://geodacenter.github.io/data-and-lab//data/malariacolomb.zip/malariacolomb/colmunic.gpkg|layername=colmunic|geometrytype=Polygon|uniqueGeometryType=yes</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>malariacolomb/colmunic.gpkg</layername>
+      <srs>
+        <spatialrefsys nativeFormat="Wkt">
+          <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type>dataset</type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <dates/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys nativeFormat="Wkt">
+            <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+            <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+            <srsid>3452</srsid>
+            <srid>4326</srid>
+            <authid>EPSG:4326</authid>
+            <description>WGS 84</description>
+            <projectionacronym>longlat</projectionacronym>
+            <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+            <geographicflag>true</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <metadataUrls/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+        <Private>0</Private>
+      </flags>
+      <temporal limitMode="0" startField="" mode="0" enabled="0" accumulate="0" endExpression="" durationField="" endField="" durationUnit="min" startExpression="" fixedDuration="0">
+        <fixedRange>
+          <start></start>
+          <end></end>
+        </fixedRange>
+      </temporal>
+      <elevation symbology="Line" clamping="Terrain" zoffset="0" extrusion="0" showMarkerSymbolInSurfacePlots="0" respectLayerSymbol="1" zscale="1" extrusionEnabled="0" binding="Centroid" type="IndividualFeatures">
+        <data-defined-properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </data-defined-properties>
+        <profileLineSymbol>
+          <symbol clip_to_extent="1" name="" alpha="1" is_animated="0" force_rhr="0" type="line" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleLine" locked="0" id="{95dfd607-e145-4f46-8884-961cbd4f5da4}" pass="0">
+              <Option type="Map">
+                <Option name="align_dash_pattern" value="0" type="QString"/>
+                <Option name="capstyle" value="square" type="QString"/>
+                <Option name="customdash" value="5;2" type="QString"/>
+                <Option name="customdash_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="customdash_unit" value="MM" type="QString"/>
+                <Option name="dash_pattern_offset" value="0" type="QString"/>
+                <Option name="dash_pattern_offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="dash_pattern_offset_unit" value="MM" type="QString"/>
+                <Option name="draw_inside_polygon" value="0" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="line_color" value="196,60,57,255" type="QString"/>
+                <Option name="line_style" value="solid" type="QString"/>
+                <Option name="line_width" value="0.6" type="QString"/>
+                <Option name="line_width_unit" value="MM" type="QString"/>
+                <Option name="offset" value="0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="ring_filter" value="0" type="QString"/>
+                <Option name="trim_distance_end" value="0" type="QString"/>
+                <Option name="trim_distance_end_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_end_unit" value="MM" type="QString"/>
+                <Option name="trim_distance_start" value="0" type="QString"/>
+                <Option name="trim_distance_start_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="trim_distance_start_unit" value="MM" type="QString"/>
+                <Option name="tweak_dash_pattern_on_corners" value="0" type="QString"/>
+                <Option name="use_custom_dash" value="0" type="QString"/>
+                <Option name="width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileLineSymbol>
+        <profileFillSymbol>
+          <symbol clip_to_extent="1" name="" alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" locked="0" id="{45f02c9f-fd32-47e7-9186-ebdc9dcbdf85}" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="196,60,57,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="140,43,41,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.2" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileFillSymbol>
+        <profileMarkerSymbol>
+          <symbol clip_to_extent="1" name="" alpha="1" is_animated="0" force_rhr="0" type="marker" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleMarker" locked="0" id="{604f00fd-d75b-401f-8529-bedeeec7565e}" pass="0">
+              <Option type="Map">
+                <Option name="angle" value="0" type="QString"/>
+                <Option name="cap_style" value="square" type="QString"/>
+                <Option name="color" value="196,60,57,255" type="QString"/>
+                <Option name="horizontal_anchor_point" value="1" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="name" value="diamond" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="140,43,41,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.2" type="QString"/>
+                <Option name="outline_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="scale_method" value="diameter" type="QString"/>
+                <Option name="size" value="3" type="QString"/>
+                <Option name="size_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="size_unit" value="MM" type="QString"/>
+                <Option name="vertical_anchor_point" value="1" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </profileMarkerSymbol>
+      </elevation>
+      <renderer-v2 symbollevels="0" enableorderby="0" referencescale="-1" forceraster="0" type="singleSymbol">
+        <symbols>
+          <symbol clip_to_extent="1" name="0" alpha="1" is_animated="0" force_rhr="0" type="fill" frame_rate="10">
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" value="" type="QString"/>
+                <Option name="properties"/>
+                <Option name="type" value="collection" type="QString"/>
+              </Option>
+            </data_defined_properties>
+            <layer enabled="1" class="SimpleFill" locked="0" id="{816d87fd-06c7-4ae1-b5ee-9875cb609793}" pass="0">
+              <Option type="Map">
+                <Option name="border_width_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="color" value="229,182,54,255" type="QString"/>
+                <Option name="joinstyle" value="bevel" type="QString"/>
+                <Option name="offset" value="0,0" type="QString"/>
+                <Option name="offset_map_unit_scale" value="3x:0,0,0,0,0,0" type="QString"/>
+                <Option name="offset_unit" value="MM" type="QString"/>
+                <Option name="outline_color" value="35,35,35,255" type="QString"/>
+                <Option name="outline_style" value="solid" type="QString"/>
+                <Option name="outline_width" value="0.26" type="QString"/>
+                <Option name="outline_width_unit" value="MM" type="QString"/>
+                <Option name="style" value="solid" type="QString"/>
+              </Option>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <Option type="Map">
+          <Option name="dualview/previewExpressions" type="List">
+            <Option value="&quot;ADM0&quot;" type="QString"/>
+          </Option>
+        </Option>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <legend showLabelLegend="0" type="default-vector"/>
+      <referencedLayers/>
+      <fieldConfiguration>
+        <field name="primaryindex" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ID" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADM0" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADM1" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADM2" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CODDEPT" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="IDDANE" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DANECODE" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1973" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1973" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1973" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1985" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1985" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1985" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1993" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1993" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1993" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MALARI98" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1995" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1995" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1995" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1996" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1996" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1996" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1997" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1997" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1997" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1998" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1998" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1998" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP1999" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP1999" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP1999" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP2000" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP2000" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP2000" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP2001" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP2001" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP2001" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP2002" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP2002" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP2002" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP2003" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP2003" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP2003" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP2004" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP2004" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP2004" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TP2005" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UP2005" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RP2005" configurationFlags="None">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="primaryindex" index="0"/>
+        <alias name="" field="ID" index="1"/>
+        <alias name="" field="ADM0" index="2"/>
+        <alias name="" field="ADM1" index="3"/>
+        <alias name="" field="ADM2" index="4"/>
+        <alias name="" field="CODDEPT" index="5"/>
+        <alias name="" field="IDDANE" index="6"/>
+        <alias name="" field="DANECODE" index="7"/>
+        <alias name="" field="TP1973" index="8"/>
+        <alias name="" field="UP1973" index="9"/>
+        <alias name="" field="RP1973" index="10"/>
+        <alias name="" field="TP1985" index="11"/>
+        <alias name="" field="UP1985" index="12"/>
+        <alias name="" field="RP1985" index="13"/>
+        <alias name="" field="TP1993" index="14"/>
+        <alias name="" field="UP1993" index="15"/>
+        <alias name="" field="RP1993" index="16"/>
+        <alias name="" field="MALARI98" index="17"/>
+        <alias name="" field="TP1995" index="18"/>
+        <alias name="" field="UP1995" index="19"/>
+        <alias name="" field="RP1995" index="20"/>
+        <alias name="" field="TP1996" index="21"/>
+        <alias name="" field="UP1996" index="22"/>
+        <alias name="" field="RP1996" index="23"/>
+        <alias name="" field="TP1997" index="24"/>
+        <alias name="" field="UP1997" index="25"/>
+        <alias name="" field="RP1997" index="26"/>
+        <alias name="" field="TP1998" index="27"/>
+        <alias name="" field="UP1998" index="28"/>
+        <alias name="" field="RP1998" index="29"/>
+        <alias name="" field="TP1999" index="30"/>
+        <alias name="" field="UP1999" index="31"/>
+        <alias name="" field="RP1999" index="32"/>
+        <alias name="" field="TP2000" index="33"/>
+        <alias name="" field="UP2000" index="34"/>
+        <alias name="" field="RP2000" index="35"/>
+        <alias name="" field="TP2001" index="36"/>
+        <alias name="" field="UP2001" index="37"/>
+        <alias name="" field="RP2001" index="38"/>
+        <alias name="" field="TP2002" index="39"/>
+        <alias name="" field="UP2002" index="40"/>
+        <alias name="" field="RP2002" index="41"/>
+        <alias name="" field="TP2003" index="42"/>
+        <alias name="" field="UP2003" index="43"/>
+        <alias name="" field="RP2003" index="44"/>
+        <alias name="" field="TP2004" index="45"/>
+        <alias name="" field="UP2004" index="46"/>
+        <alias name="" field="RP2004" index="47"/>
+        <alias name="" field="TP2005" index="48"/>
+        <alias name="" field="UP2005" index="49"/>
+        <alias name="" field="RP2005" index="50"/>
+      </aliases>
+      <splitPolicies>
+        <policy field="primaryindex" policy="Duplicate"/>
+        <policy field="ID" policy="Duplicate"/>
+        <policy field="ADM0" policy="Duplicate"/>
+        <policy field="ADM1" policy="Duplicate"/>
+        <policy field="ADM2" policy="Duplicate"/>
+        <policy field="CODDEPT" policy="Duplicate"/>
+        <policy field="IDDANE" policy="Duplicate"/>
+        <policy field="DANECODE" policy="Duplicate"/>
+        <policy field="TP1973" policy="Duplicate"/>
+        <policy field="UP1973" policy="Duplicate"/>
+        <policy field="RP1973" policy="Duplicate"/>
+        <policy field="TP1985" policy="Duplicate"/>
+        <policy field="UP1985" policy="Duplicate"/>
+        <policy field="RP1985" policy="Duplicate"/>
+        <policy field="TP1993" policy="Duplicate"/>
+        <policy field="UP1993" policy="Duplicate"/>
+        <policy field="RP1993" policy="Duplicate"/>
+        <policy field="MALARI98" policy="Duplicate"/>
+        <policy field="TP1995" policy="Duplicate"/>
+        <policy field="UP1995" policy="Duplicate"/>
+        <policy field="RP1995" policy="Duplicate"/>
+        <policy field="TP1996" policy="Duplicate"/>
+        <policy field="UP1996" policy="Duplicate"/>
+        <policy field="RP1996" policy="Duplicate"/>
+        <policy field="TP1997" policy="Duplicate"/>
+        <policy field="UP1997" policy="Duplicate"/>
+        <policy field="RP1997" policy="Duplicate"/>
+        <policy field="TP1998" policy="Duplicate"/>
+        <policy field="UP1998" policy="Duplicate"/>
+        <policy field="RP1998" policy="Duplicate"/>
+        <policy field="TP1999" policy="Duplicate"/>
+        <policy field="UP1999" policy="Duplicate"/>
+        <policy field="RP1999" policy="Duplicate"/>
+        <policy field="TP2000" policy="Duplicate"/>
+        <policy field="UP2000" policy="Duplicate"/>
+        <policy field="RP2000" policy="Duplicate"/>
+        <policy field="TP2001" policy="Duplicate"/>
+        <policy field="UP2001" policy="Duplicate"/>
+        <policy field="RP2001" policy="Duplicate"/>
+        <policy field="TP2002" policy="Duplicate"/>
+        <policy field="UP2002" policy="Duplicate"/>
+        <policy field="RP2002" policy="Duplicate"/>
+        <policy field="TP2003" policy="Duplicate"/>
+        <policy field="UP2003" policy="Duplicate"/>
+        <policy field="RP2003" policy="Duplicate"/>
+        <policy field="TP2004" policy="Duplicate"/>
+        <policy field="UP2004" policy="Duplicate"/>
+        <policy field="RP2004" policy="Duplicate"/>
+        <policy field="TP2005" policy="Duplicate"/>
+        <policy field="UP2005" policy="Duplicate"/>
+        <policy field="RP2005" policy="Duplicate"/>
+      </splitPolicies>
+      <defaults>
+        <default applyOnUpdate="0" expression="" field="primaryindex"/>
+        <default applyOnUpdate="0" expression="" field="ID"/>
+        <default applyOnUpdate="0" expression="" field="ADM0"/>
+        <default applyOnUpdate="0" expression="" field="ADM1"/>
+        <default applyOnUpdate="0" expression="" field="ADM2"/>
+        <default applyOnUpdate="0" expression="" field="CODDEPT"/>
+        <default applyOnUpdate="0" expression="" field="IDDANE"/>
+        <default applyOnUpdate="0" expression="" field="DANECODE"/>
+        <default applyOnUpdate="0" expression="" field="TP1973"/>
+        <default applyOnUpdate="0" expression="" field="UP1973"/>
+        <default applyOnUpdate="0" expression="" field="RP1973"/>
+        <default applyOnUpdate="0" expression="" field="TP1985"/>
+        <default applyOnUpdate="0" expression="" field="UP1985"/>
+        <default applyOnUpdate="0" expression="" field="RP1985"/>
+        <default applyOnUpdate="0" expression="" field="TP1993"/>
+        <default applyOnUpdate="0" expression="" field="UP1993"/>
+        <default applyOnUpdate="0" expression="" field="RP1993"/>
+        <default applyOnUpdate="0" expression="" field="MALARI98"/>
+        <default applyOnUpdate="0" expression="" field="TP1995"/>
+        <default applyOnUpdate="0" expression="" field="UP1995"/>
+        <default applyOnUpdate="0" expression="" field="RP1995"/>
+        <default applyOnUpdate="0" expression="" field="TP1996"/>
+        <default applyOnUpdate="0" expression="" field="UP1996"/>
+        <default applyOnUpdate="0" expression="" field="RP1996"/>
+        <default applyOnUpdate="0" expression="" field="TP1997"/>
+        <default applyOnUpdate="0" expression="" field="UP1997"/>
+        <default applyOnUpdate="0" expression="" field="RP1997"/>
+        <default applyOnUpdate="0" expression="" field="TP1998"/>
+        <default applyOnUpdate="0" expression="" field="UP1998"/>
+        <default applyOnUpdate="0" expression="" field="RP1998"/>
+        <default applyOnUpdate="0" expression="" field="TP1999"/>
+        <default applyOnUpdate="0" expression="" field="UP1999"/>
+        <default applyOnUpdate="0" expression="" field="RP1999"/>
+        <default applyOnUpdate="0" expression="" field="TP2000"/>
+        <default applyOnUpdate="0" expression="" field="UP2000"/>
+        <default applyOnUpdate="0" expression="" field="RP2000"/>
+        <default applyOnUpdate="0" expression="" field="TP2001"/>
+        <default applyOnUpdate="0" expression="" field="UP2001"/>
+        <default applyOnUpdate="0" expression="" field="RP2001"/>
+        <default applyOnUpdate="0" expression="" field="TP2002"/>
+        <default applyOnUpdate="0" expression="" field="UP2002"/>
+        <default applyOnUpdate="0" expression="" field="RP2002"/>
+        <default applyOnUpdate="0" expression="" field="TP2003"/>
+        <default applyOnUpdate="0" expression="" field="UP2003"/>
+        <default applyOnUpdate="0" expression="" field="RP2003"/>
+        <default applyOnUpdate="0" expression="" field="TP2004"/>
+        <default applyOnUpdate="0" expression="" field="UP2004"/>
+        <default applyOnUpdate="0" expression="" field="RP2004"/>
+        <default applyOnUpdate="0" expression="" field="TP2005"/>
+        <default applyOnUpdate="0" expression="" field="UP2005"/>
+        <default applyOnUpdate="0" expression="" field="RP2005"/>
+      </defaults>
+      <constraints>
+        <constraint exp_strength="0" notnull_strength="1" field="primaryindex" unique_strength="1" constraints="3"/>
+        <constraint exp_strength="0" notnull_strength="0" field="ID" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="ADM0" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="ADM1" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="ADM2" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="CODDEPT" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="IDDANE" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="DANECODE" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1973" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1973" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1973" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1985" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1985" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1985" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1993" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1993" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1993" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="MALARI98" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1995" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1995" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1995" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1996" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1996" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1996" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1997" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1997" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1997" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1998" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1998" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1998" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP1999" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP1999" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP1999" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP2000" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP2000" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP2000" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP2001" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP2001" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP2001" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP2002" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP2002" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP2002" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP2003" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP2003" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP2003" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP2004" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP2004" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP2004" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="TP2005" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="UP2005" unique_strength="0" constraints="0"/>
+        <constraint exp_strength="0" notnull_strength="0" field="RP2005" unique_strength="0" constraints="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="primaryindex" exp=""/>
+        <constraint desc="" field="ID" exp=""/>
+        <constraint desc="" field="ADM0" exp=""/>
+        <constraint desc="" field="ADM1" exp=""/>
+        <constraint desc="" field="ADM2" exp=""/>
+        <constraint desc="" field="CODDEPT" exp=""/>
+        <constraint desc="" field="IDDANE" exp=""/>
+        <constraint desc="" field="DANECODE" exp=""/>
+        <constraint desc="" field="TP1973" exp=""/>
+        <constraint desc="" field="UP1973" exp=""/>
+        <constraint desc="" field="RP1973" exp=""/>
+        <constraint desc="" field="TP1985" exp=""/>
+        <constraint desc="" field="UP1985" exp=""/>
+        <constraint desc="" field="RP1985" exp=""/>
+        <constraint desc="" field="TP1993" exp=""/>
+        <constraint desc="" field="UP1993" exp=""/>
+        <constraint desc="" field="RP1993" exp=""/>
+        <constraint desc="" field="MALARI98" exp=""/>
+        <constraint desc="" field="TP1995" exp=""/>
+        <constraint desc="" field="UP1995" exp=""/>
+        <constraint desc="" field="RP1995" exp=""/>
+        <constraint desc="" field="TP1996" exp=""/>
+        <constraint desc="" field="UP1996" exp=""/>
+        <constraint desc="" field="RP1996" exp=""/>
+        <constraint desc="" field="TP1997" exp=""/>
+        <constraint desc="" field="UP1997" exp=""/>
+        <constraint desc="" field="RP1997" exp=""/>
+        <constraint desc="" field="TP1998" exp=""/>
+        <constraint desc="" field="UP1998" exp=""/>
+        <constraint desc="" field="RP1998" exp=""/>
+        <constraint desc="" field="TP1999" exp=""/>
+        <constraint desc="" field="UP1999" exp=""/>
+        <constraint desc="" field="RP1999" exp=""/>
+        <constraint desc="" field="TP2000" exp=""/>
+        <constraint desc="" field="UP2000" exp=""/>
+        <constraint desc="" field="RP2000" exp=""/>
+        <constraint desc="" field="TP2001" exp=""/>
+        <constraint desc="" field="UP2001" exp=""/>
+        <constraint desc="" field="RP2001" exp=""/>
+        <constraint desc="" field="TP2002" exp=""/>
+        <constraint desc="" field="UP2002" exp=""/>
+        <constraint desc="" field="RP2002" exp=""/>
+        <constraint desc="" field="TP2003" exp=""/>
+        <constraint desc="" field="UP2003" exp=""/>
+        <constraint desc="" field="RP2003" exp=""/>
+        <constraint desc="" field="TP2004" exp=""/>
+        <constraint desc="" field="UP2004" exp=""/>
+        <constraint desc="" field="RP2004" exp=""/>
+        <constraint desc="" field="TP2005" exp=""/>
+        <constraint desc="" field="UP2005" exp=""/>
+        <constraint desc="" field="RP2005" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column name="primaryindex" width="-1" hidden="0" type="field"/>
+          <column name="ID" width="-1" hidden="0" type="field"/>
+          <column name="ADM0" width="-1" hidden="0" type="field"/>
+          <column name="ADM1" width="-1" hidden="0" type="field"/>
+          <column name="ADM2" width="-1" hidden="0" type="field"/>
+          <column name="CODDEPT" width="-1" hidden="0" type="field"/>
+          <column name="IDDANE" width="-1" hidden="0" type="field"/>
+          <column name="DANECODE" width="-1" hidden="0" type="field"/>
+          <column name="TP1973" width="-1" hidden="0" type="field"/>
+          <column name="UP1973" width="-1" hidden="0" type="field"/>
+          <column name="RP1973" width="-1" hidden="0" type="field"/>
+          <column name="TP1985" width="-1" hidden="0" type="field"/>
+          <column name="UP1985" width="-1" hidden="0" type="field"/>
+          <column name="RP1985" width="-1" hidden="0" type="field"/>
+          <column name="TP1993" width="-1" hidden="0" type="field"/>
+          <column name="UP1993" width="-1" hidden="0" type="field"/>
+          <column name="RP1993" width="-1" hidden="0" type="field"/>
+          <column name="MALARI98" width="-1" hidden="0" type="field"/>
+          <column name="TP1995" width="-1" hidden="0" type="field"/>
+          <column name="UP1995" width="-1" hidden="0" type="field"/>
+          <column name="RP1995" width="-1" hidden="0" type="field"/>
+          <column name="TP1996" width="-1" hidden="0" type="field"/>
+          <column name="UP1996" width="-1" hidden="0" type="field"/>
+          <column name="RP1996" width="-1" hidden="0" type="field"/>
+          <column name="TP1997" width="-1" hidden="0" type="field"/>
+          <column name="UP1997" width="-1" hidden="0" type="field"/>
+          <column name="RP1997" width="-1" hidden="0" type="field"/>
+          <column name="TP1998" width="-1" hidden="0" type="field"/>
+          <column name="UP1998" width="-1" hidden="0" type="field"/>
+          <column name="RP1998" width="-1" hidden="0" type="field"/>
+          <column name="TP1999" width="-1" hidden="0" type="field"/>
+          <column name="UP1999" width="-1" hidden="0" type="field"/>
+          <column name="RP1999" width="-1" hidden="0" type="field"/>
+          <column name="TP2000" width="-1" hidden="0" type="field"/>
+          <column name="UP2000" width="-1" hidden="0" type="field"/>
+          <column name="RP2000" width="-1" hidden="0" type="field"/>
+          <column name="TP2001" width="-1" hidden="0" type="field"/>
+          <column name="UP2001" width="-1" hidden="0" type="field"/>
+          <column name="RP2001" width="-1" hidden="0" type="field"/>
+          <column name="TP2002" width="-1" hidden="0" type="field"/>
+          <column name="UP2002" width="-1" hidden="0" type="field"/>
+          <column name="RP2002" width="-1" hidden="0" type="field"/>
+          <column name="TP2003" width="-1" hidden="0" type="field"/>
+          <column name="UP2003" width="-1" hidden="0" type="field"/>
+          <column name="RP2003" width="-1" hidden="0" type="field"/>
+          <column name="TP2004" width="-1" hidden="0" type="field"/>
+          <column name="UP2004" width="-1" hidden="0" type="field"/>
+          <column name="RP2004" width="-1" hidden="0" type="field"/>
+          <column name="TP2005" width="-1" hidden="0" type="field"/>
+          <column name="UP2005" width="-1" hidden="0" type="field"/>
+          <column name="RP2005" width="-1" hidden="0" type="field"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <storedexpressions/>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <reuseLastValue/>
+      <dataDefinedFieldProperties/>
+      <widgets/>
+      <previewExpression>"ADM0"</previewExpression>
+      <mapTip enabled="1"></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="malariacolomb_colmunic_gpkg_03cd58a0_7908_47ba_b82e_456bd1bbfbbd"/>
+    <layer id="_6722e8eb_e78a_4e5c_9358_eff9b175c4b0"/>
+  </layerorder>
+  <properties>
+    <Digitizing>
+      <AvoidIntersectionsMode type="int">0</AvoidIntersectionsMode>
+    </Digitizing>
+    <Gui>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+    </Gui>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <Measure>
+      <Ellipsoid type="QString">EPSG:7030</Ellipsoid>
+    </Measure>
+    <Measurement>
+      <AreaUnits type="QString">m2</AreaUnits>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+    </Measurement>
+    <PAL>
+      <CandidatesLinePerCM type="double">5</CandidatesLinePerCM>
+      <CandidatesPolygonPerCM type="double">2.5</CandidatesPolygonPerCM>
+      <DrawLabelMetrics type="bool">false</DrawLabelMetrics>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <DrawUnplaced type="bool">false</DrawUnplaced>
+      <PlacementEngineVersion type="int">1</PlacementEngineVersion>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <TextFormat type="int">0</TextFormat>
+      <UnplacedColor type="QString">255,0,0,255</UnplacedColor>
+    </PAL>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <Automatic type="bool">true</Automatic>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+    </PositionPrecision>
+    <RenderMapTile type="bool">false</RenderMapTile>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WCSLayers type="QStringList"/>
+    <WCSUrl type="QString"></WCSUrl>
+    <WFSLayers type="QStringList"/>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+      <Update type="QStringList"/>
+    </WFSTLayers>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddLayerGroupsLegendGraphic type="bool">false</WMSAddLayerGroupsLegendGraphic>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSFeatureInfoUseAttributeFormSettings type="bool">false</WMSFeatureInfoUseAttributeFormSettings>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSTileBuffer type="int">0</WMSTileBuffer>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMTSGrids>
+      <CRS type="QStringList"/>
+      <Config type="QStringList"/>
+    </WMTSGrids>
+    <WMTSJpegLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMTSLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WMTSPngLayers>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMTSUrl type="QString"></WMTSUrl>
+  </properties>
+  <dataDefinedServerProperties>
+    <Option type="Map">
+      <Option name="name" value="" type="QString"/>
+      <Option name="properties"/>
+      <Option name="type" value="collection" type="QString"/>
+    </Option>
+  </dataDefinedServerProperties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <dates>
+      <date value="2023-08-06T00:05:31" type="Created"/>
+    </dates>
+    <author>SavevelGeo</author>
+    <creation>2023-08-06T00:05:31</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+  <mapViewDocks3D/>
+  <Bookmarks/>
+  <Sensors/>
+  <ProjectViewSettings UseProjectScales="0" rotation="0">
+    <Scales/>
+    <DefaultViewExtent ymin="-604917.83977888594381511" xmax="-7010418.18092058971524239" ymax="1540611.35911238356493413" xmin="-9184596.87950031831860542">
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>PROJCRS["WGS 84 / Pseudo-Mercator",BASEGEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],ID["EPSG",4326]],CONVERSION["Popular Visualisation Pseudo-Mercator",METHOD["Popular Visualisation Pseudo Mercator",ID["EPSG",1024]],PARAMETER["Latitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8801]],PARAMETER["Longitude of natural origin",0,ANGLEUNIT["degree",0.0174532925199433],ID["EPSG",8802]],PARAMETER["False easting",0,LENGTHUNIT["metre",1],ID["EPSG",8806]],PARAMETER["False northing",0,LENGTHUNIT["metre",1],ID["EPSG",8807]]],CS[Cartesian,2],AXIS["easting (X)",east,ORDER[1],LENGTHUNIT["metre",1]],AXIS["northing (Y)",north,ORDER[2],LENGTHUNIT["metre",1]],USAGE[SCOPE["Web mapping and visualisation."],AREA["World between 85.06°S and 85.06°N."],BBOX[-85.06,-180,85.06,180]],ID["EPSG",3857]]</wkt>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </DefaultViewExtent>
+  </ProjectViewSettings>
+  <ProjectStyleSettings DefaultSymbolOpacity="1" projectStyleId="attachment:///alhDOw_styles.db" RandomizeDefaultSymbolColor="1">
+    <databases/>
+  </ProjectStyleSettings>
+  <ProjectTimeSettings timeStepUnit="h" timeStep="1" cumulativeTemporalRange="0" frameRate="1"/>
+  <ElevationProperties>
+    <terrainProvider type="flat">
+      <TerrainProvider offset="0" scale="1"/>
+    </terrainProvider>
+  </ElevationProperties>
+  <ProjectDisplaySettings CoordinateAxisOrder="Default" CoordinateType="MapCrs">
+    <BearingFormat id="bearing">
+      <Option type="Map">
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" value="6" type="int"/>
+        <Option name="direction_format" value="0" type="int"/>
+        <Option name="rounding_type" value="0" type="int"/>
+        <Option name="show_plus" value="false" type="bool"/>
+        <Option name="show_thousand_separator" value="true" type="bool"/>
+        <Option name="show_trailing_zeros" value="false" type="bool"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </BearingFormat>
+    <GeographicCoordinateFormat id="geographiccoordinate">
+      <Option type="Map">
+        <Option name="angle_format" value="DecimalDegrees" type="QString"/>
+        <Option name="decimal_separator" type="invalid"/>
+        <Option name="decimals" value="6" type="int"/>
+        <Option name="rounding_type" value="0" type="int"/>
+        <Option name="show_leading_degree_zeros" value="false" type="bool"/>
+        <Option name="show_leading_zeros" value="false" type="bool"/>
+        <Option name="show_plus" value="false" type="bool"/>
+        <Option name="show_suffix" value="false" type="bool"/>
+        <Option name="show_thousand_separator" value="true" type="bool"/>
+        <Option name="show_trailing_zeros" value="false" type="bool"/>
+        <Option name="thousand_separator" type="invalid"/>
+      </Option>
+    </GeographicCoordinateFormat>
+    <CoordinateCustomCrs>
+      <spatialrefsys nativeFormat="Wkt">
+        <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>EPSG:7030</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </CoordinateCustomCrs>
+  </ProjectDisplaySettings>
+  <ProjectGpsSettings destinationLayer="malariacolomb_colmunic_gpkg_03cd58a0_7908_47ba_b82e_456bd1bbfbbd" destinationLayerSource="/vsizip//vsicurl/https://geodacenter.github.io/data-and-lab//data/malariacolomb.zip/malariacolomb/colmunic.gpkg|layername=colmunic|geometrytype=Polygon|uniqueGeometryType=yes" autoAddTrackVertices="0" destinationLayerName="colmunic — malariacolomb/colmunic.gpkg" destinationFollowsActiveLayer="1" destinationLayerProvider="ogr" autoCommitFeatures="0">
+    <timeStampFields/>
+  </ProjectGpsSettings>
+</qgis>
