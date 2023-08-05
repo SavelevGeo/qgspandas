@@ -1,0 +1,4 @@
+*_attachments.zip
+*.qgs~
+.venv
+scratch.ipynb
